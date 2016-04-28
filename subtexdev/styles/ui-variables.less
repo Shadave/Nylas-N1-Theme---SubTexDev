@@ -1,0 +1,97 @@
+// Change these variables to modify your theme!
+
+//=============================== Components ===========================//
+
+//== Toolbar
+@toolbar-background-color: darken(@white, 17.5%);
+
+//== Account Sidebar
+@panel-background-color:         #800000;
+@source-list-bg:                 @panel-background-color;
+@source-list-active-bg:          #3B0000;
+@source-list-active-color:       @component-active-color;
+
+//== Thread List (e.g, `.list-group-item`, `.list-item`)
+@list-bg:                  #902D2D;
+@list-border:              #ddd;
+@list-hover-bg:            darken(@list-bg, 4%);
+@list-focused-color:       #FFFFFF;
+@list-focused-bg:          @component-active-color;
+@list-focused-border:      @list-focused-bg;
+@list-selected-color:      inherit;
+@list-selected-bg:         mix(@component-active-color, @list-bg, 17%);
+@list-selected-border:     mix(@component-active-color, @list-bg, 50%);
+
+//== Notifications
+@background-color-info: #FF4E4E;
+@background-color-success: #009ec4;
+@background-color-warning: #FF4800;
+@background-color-error: #F63015;
+@background-color-pending: #696969;
+
+//== Menus
+@menu-item-color-hover: fade(#FF6A6A, 10%);
+@menu-item-color-selected: #FF6A6A;
+@menu-text-color-selected: @text-color-inverse;
+
+//== Sizes
+@input-font-size: 14px;
+@component-padding: 10px;
+@component-icon-padding: 5px;
+@component-icon-size: 16px;
+@component-line-height: 25px;
+@component-border-radius: 2px;
+
+
+//=============================== Colors ===============================//
+
+@accent-primary:      #D70000;
+@accent-primary-dark: #A30000;
+
+@background-primary:     #131313;
+@background-off-primary: #2A0000;
+@background-secondary:   #000000;
+@background-tertiary:    #888888;
+
+@color-info:    #B00909;
+@color-success: #5CB346;
+@color-warning: #FF0000;
+@color-error:   #DE0600;
+@color-danger:  #A50500;
+
+@component-active-color:        @accent-primary-dark;
+@component-active-bg:           @background-primary;
+
+@background-gradient: linear-gradient(to top, #FF2222 0%,
+#992020 100%);
+
+@border-color-primary: darken(@background-primary, 10%);
+@border-color-secondary: darken(@background-secondary, 10%);
+@border-color-tertiary: darken(@background-tertiary, 10%);
+@border-color-divider: @border-color-secondary;
+
+//============================= Typography =============================//
+
+// ----- Colors -----
+@text-color:         @white;
+@text-color-inverse: #4F0000;
+
+@text-color-heading: #FF1010;
+
+@text-color-link:        #FF0000;
+@text-color-link-hover:  #A50000;
+@text-color-link-active: @text-color-link;
+
+// Custom CSS-Rules
+.disclosure-triangle{
+	display: none;
+}
+.item-container .item{
+	padding-left: 10%;
+}
+
+// Delete or comment out the following
+// to get the right sidebar back
+.column-MessageListSidebar{
+	display: none;
+}

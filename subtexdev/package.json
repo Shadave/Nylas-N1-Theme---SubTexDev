@@ -1,0 +1,13 @@
+{
+  "name": "subtexdev",
+  "title": "SubTexDev",
+  "displayName": "SubTexDev",
+  "theme": "ui",
+  "version": "0.1.0",
+  "description": "A theme for the SubTexDev",
+  "license": "GPL-3.0",
+  "engines": {
+    "nylas": "*"
+  },
+  "private": true
+}
